@@ -1,3 +1,6 @@
+//agrupamos la funcion pares y nones
+function paresynones(){
+
 document.write('vamos a jugar a pares y nones. El jugador 1 siempre elige nones y el jugador 2 siempre elige pares <br>');
 var tiradaJugador = prompt('Jugador 1 dinos un numero del 1 al 5');
 document.write('El jugador 1 ha sacado = '+ tiradaJugador + '<br>');
@@ -13,3 +16,4 @@ if(suma % 2 === 0){
    document.write('El jugador 1 ha ganado <br>'); 
 }
 
+}//fin de la funcion pares y nones
